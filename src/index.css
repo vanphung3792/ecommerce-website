@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    h1 {
+      @apply text-4xl;
+    }
+
+    nav {
+        @apply
+            flex
+            flex-row
+            justify-between
+            items-center
+            h-[80px]
+    }
+}
+
+@layer components {
+
+    #root {
+        @apply
+            px-[5%]
+    }
+
+    .logo {
+        @apply
+            text-2xl
+    }
+
+    .nav-links {
+        @apply
+            flex
+            flex-row
+            gap-4
+            divide-x-2
+            divide-primary
+            text-sm
+    }
+
+    .active {
+        @apply
+            font-bold
+    }
+
+    .nav-link {
+        @apply
+            pl-4
+    }
+
+    .nav-link:hover {
+        @apply
+            cursor-pointer
+            font-bold
+            scale-105
+    }
+
+    .icon {
+        @apply w-4 h-4;
+    }
+
+    .shopping-cart {
+        @apply
+            border-[1px]
+            border-gray-700
+            text-gray-700
+            rounded-full
+            p-2
+    }
+
+
+}
