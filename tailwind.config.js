@@ -6,17 +6,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#AF9997',
-        secondary: '#F1EAE3',
-        accent: '#FAB575',
-        light: '#F6F4F0',
-        black: '#000',
-        white: '#FFF',
+        primary: '#DAB79F',
+        secondary: '#AFB796',
+        accent: '#435739',
+        light: '#F2E5D5',
       },
     },
     fontFamily: {
       'serif': ['"Yeseva One"', 'serif'],
       'script': ['"Dancing Script"', 'cursive'],
+    },
+    screens: {
+      'sm': '320px',
+      'md': '426px',
+      'lg': '769px',
+      'xl': '1025px',
     },
   },
   plugins: [],

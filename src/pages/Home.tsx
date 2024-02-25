@@ -1,6 +1,16 @@
+import CTA from "../components/home/CTA"
+import Categories from "../components/home/Categories"
+import Header from "../components/home/Header"
+import Sale from "../components/home/Sale"
+
 const Home = () => {
   return (
-    <h1 className="bg-primary">Home</h1>
+    <>
+      <Header />
+      <Sale />
+      <Categories />
+      <CTA />
+    </>
   )
 }
 export default Home

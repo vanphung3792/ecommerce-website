@@ -6,6 +6,11 @@
 
 
 @layer base {
+       
+    #root {
+        @apply
+            relative
+    }
 
     h1 {
       @apply text-4xl;
@@ -15,49 +20,56 @@
         @apply
             flex
             flex-row
-            justify-between
             items-center
+            justify-between
+            w-full
             h-[80px]
+            px-[5%]
+            fixed
+            z-50
+            bg-transparent
     }
 }
 
 @layer components {
 
-    #root {
-        @apply
-            px-[5%]
-    }
+    /* Navbar */
 
     .logo {
         @apply
-            text-2xl
+            text-3xl
+            font-serif
+            text-accent
     }
+
 
     .nav-links {
         @apply
             flex
             flex-row
-            gap-4
+            gap-8
             divide-x-2
             divide-primary
-            text-sm
-    }
-
-    .active {
-        @apply
-            font-bold
     }
 
     .nav-link {
         @apply
-            pl-4
+            pl-8
+            font-normal
     }
 
     .nav-link:hover {
         @apply
             cursor-pointer
             font-bold
-            scale-105
+            text-accent/70
+            scale-110
+    }
+
+    .active {
+        @apply
+            text-accent
+            font-bold
     }
 
     .icon {
@@ -72,6 +84,68 @@
             rounded-full
             p-2
     }
+    
+    /* Footer */
 
+    .footer-body {
+        @apply
+            bg-primary/30
+            px-[5%]
+            py-8
+            grid
+            grid-cols-2
+            gap-8
+            text-sm
+            text-gray-500
+            pb-[100px]
+    }
+
+    .footer-left {
+        @apply
+            flex
+            flex-col
+            gap-4
+            w-[70%]
+    }
+
+    .footer-right {
+        @apply
+            flex
+            flex-row
+            justify-between
+            gap-8
+            w-[85%]
+    }
+
+    .footer-services,
+    .footer-categories,
+    .footer-contact {
+        @apply
+            flex
+            flex-col
+            gap-2
+    }
+
+    footer ul {
+        @apply
+            flex
+            flex-col
+    }
+
+    footer h3 {
+        @apply
+            text-base
+            font-semibold
+            text-accent
+    }
+
+    .footer-rights {
+        @apply
+            text-center
+            text-sm
+            tracking-widest
+            text-gray-500
+            py-4
+    }
 
 }
