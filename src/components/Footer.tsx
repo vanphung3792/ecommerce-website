@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
@@ -13,17 +15,17 @@ const Footer = () => {
           <div className="footer-services">
             <h3>Services</h3>
             <ul>
-              <a href="/">Planting</a>
-              <a href="/">Gardening</a>
-              <a href="/">Landscaping</a>
+              <Link to="/planting">Planting</Link>
+              <Link to="/gardening">Gardening</Link>
+              <Link to="/lanscaping">Landscaping</Link>
             </ul>
           </div>
           <div className="footer-categories">
             <h3>Products</h3>
             <ul>
-              <a href="/">Interior</a>
-              <a href="/">Extorior</a>
-              <a href="/">Office</a>
+              <Link to="/planting">Interior</Link>
+              <Link to="/gardening">Extorior</Link>
+              <Link to="/lanscaping">Office</Link>
             </ul>
           </div>
           {/* Contact */}
