@@ -23,11 +23,12 @@
             items-center
             justify-between
             w-full
-            h-[80px]
+            h-[60px]
             px-[5%]
             fixed
             z-50
-            bg-transparent
+            bg-white/50
+            shadow-md
     }
 }
 
@@ -47,6 +48,13 @@
             ease-in-out
     }
 
+    .btn-secondary {
+        @apply
+            bg-light/50
+            text-accent
+            font-bold
+    }
+
     /* Navbar */
 
     .logo {
@@ -54,16 +62,17 @@
             text-3xl
             font-serif
             text-accent
+            font-extralight
     }
-
 
     .nav-links {
         @apply
             flex
             flex-row
+            text-lg
             gap-8
             divide-x-2
-            divide-primary
+            divide-secondary/50
     }
 
     .nav-link {
@@ -76,7 +85,7 @@
         @apply
             cursor-pointer
             font-bold
-            text-accent/70
+            text-accent/90
             scale-110
     }
 
@@ -116,8 +125,8 @@
             flex-col
             justify-center
             items-start
-            pl-[25%]
-            pt-[5%]
+            pl-[20%]
+            pt-[10%]
     }
 
     .header-text h1 {
@@ -145,15 +154,63 @@
         @apply
             absolute
             scale-125
-            bottom-[10%]
+            bottom-[8%]
             right-[65%]
+    }
+
+    /* Categories */
+    .categories {
+        @apply
+            flex
+            flex-col
+            items-center
+            gap-16
+            mt-32
+    }
+
+    .categories h1 {
+        @apply
+            text-4xl
+            font-serif
+            text-accent
+    }
+
+    .category {
+        @apply
+            grid
+            grid-cols-2
+            gap-4
+            w-[50%]
+            
+    }
+
+    .category img {
+        @apply
+            w-[85%]
+            object-contain
+    }
+
+    .outdoor-plants,
+    .indoor-plants,
+    .office-plants {
+        @apply
+            flex
+            flex-row
+            justify-between
+            items-center
+            gap-2
+            px-8
+            pt-4
+            font-serif
+            text-lg
+            text-accent
     }
     
     /* Footer */
 
     .footer-body {
         @apply
-            bg-primary/30
+            bg-light/50
             px-[5%]
             py-8
             grid

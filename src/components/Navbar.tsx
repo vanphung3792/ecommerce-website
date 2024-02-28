@@ -1,11 +1,12 @@
 import { IoCartOutline } from "react-icons/io5"
 
 import { Link, NavLink } from "react-router-dom"
+import Logo from "./Logo"
 
 const Navbar = () => {
   return (
     <nav>
-        <Link className="logo" to="/">Planty.</Link>
+        <Logo />
         <div className="nav-links">
           <NavLink className="nav-link active" to="/">Home</NavLink>
           <NavLink className="nav-link" to="/shop">Shop</NavLink>

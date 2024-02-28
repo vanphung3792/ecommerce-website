@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Logo from "./Logo"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="footer-body">
         {/* Left */}
         <div className="footer-left">
-          <div className="logo">Planty.</div>
+          <Logo />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fuga a tempora inventore minus voluptas voluptatem incidunt.</p>
         </div>
         {/* Right */}
@@ -34,7 +35,7 @@ const Footer = () => {
             <ul>
               <p>123 Main Street, Ottawa, ON, K2P 5L8</p>
               <p>123-456-7890</p>
-              <p>planty@example.com</p>
+              <p>planties@example.com</p>
             </ul>
           </div>
         </div>
