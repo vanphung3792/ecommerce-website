@@ -16,6 +16,13 @@
       @apply text-4xl;
     }
 
+    h2 {
+        @apply
+            text-4xl
+            font-serif
+            text-accent
+    }
+
     nav {
         @apply
             flex
@@ -168,13 +175,6 @@
             mt-32
     }
 
-    .categories h1 {
-        @apply
-            text-4xl
-            font-serif
-            text-accent
-    }
-
     .category {
         @apply
             grid
@@ -206,6 +206,64 @@
             text-accent
     }
     
+    /* Gallery */
+    .gallery {
+        @apply
+            flex
+            flex-col
+            items-center
+            justify-center
+            gap-8
+            mt-32
+    }
+
+    .products {
+        @apply
+            flex
+            flex-wrap
+            justify-center
+            items-center
+            gap-8
+            mt-8
+            w-[80%]
+    }
+
+    .product {
+        @apply
+            flex
+            flex-col
+            items-center
+            justify-center
+            gap-4
+            w-[15%]
+            p-4
+            bg-light/20
+            shadow-lg
+    }
+
+    .product div {
+        @apply
+            flex
+            flex-col
+            items-center
+    }
+
+    .product h6 {
+        @apply
+            text-gray-500
+            text-sm
+            font-extrabold
+            mt-4
+    }
+
+    .product p {
+        @apply
+            text-accent
+            font-light
+            tracking-widest
+            mt-1
+    }
+
     /* Footer */
 
     .footer-body {

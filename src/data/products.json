@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "./images/products/1.jpg",
+        "name": "Plant 1",
+        "price": 10.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 2,
+        "imgUrl": "./images/products/2.jpg",
+        "name": "Plant 2",
+        "price": 15.99,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 3,
+        "imgUrl": "./images/products/3.jpg",
+        "name": "Plant 3",
+        "price": 12.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 4,
+        "imgUrl": "./images/products/4.jpg",
+        "name": "Plant 4",
+        "price": 10.99,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 5,
+        "imgUrl": "./images/products/5.jpg",
+        "name": "Plant 5",
+        "price": 15.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 6,
+        "imgUrl": "./images/products/6.jpg",
+        "name": "Plant 6",
+        "price": 12.99,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 7,
+        "imgUrl": "./images/products/7.jpg",
+        "name": "Plant 7",
+        "price": 9.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 8,
+        "imgUrl": "./images/products/8.jpg",
+        "name": "Plant 8",
+        "price": 14.99,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 9,
+        "imgUrl": "./images/products/9.jpg",
+        "name": "Plant 9",
+        "price": 11.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 10,
+        "imgUrl": "./images/products/10.jpg",
+        "name": "Plant 10",
+        "price": 8.99,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 11,
+        "imgUrl": "./images/products/11.jpg",
+        "name": "Plant 11",
+        "price": 13.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 12,
+        "imgUrl": "./images/products/12.jpg",
+        "name": "Plant 12",
+        "price": 10.49,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 13,
+        "imgUrl": "./images/products/13.jpg",
+        "name": "Plant 13",
+        "price": 16.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 14,
+        "imgUrl": "./images/products/14.jpg",
+        "name": "Plant 14",
+        "price": 12.49,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 15,
+        "imgUrl": "./images/products/15.jpg",
+        "name": "Plant 15",
+        "price": 9.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 16,
+        "imgUrl": "./images/products/16.jpg",
+        "name": "Plant 16",
+        "price": 14.99,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 17,
+        "imgUrl": "./images/products/17.jpg",
+        "name": "Plant 17",
+        "price": 11.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 18,
+        "imgUrl": "./images/products/18.jpg",
+        "name": "Plant 18",
+        "price": 13.99,
+        "category": "Outdoor Plants"
+    },
+    {
+        "id": 19,
+        "imgUrl": "./images/products/19.jpg",
+        "name": "Plant 19",
+        "price": 10.99,
+        "category": "Indoor Plants"
+    },
+    {
+        "id": 20,
+        "imgUrl": "./images/products/20.jpg",
+        "name": "Plant 20",
+        "price": 15.99,
+        "category": "Outdoor Plants"
+    }
+]
+     
