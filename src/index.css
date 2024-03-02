@@ -23,64 +23,25 @@
             text-accent
     }
 
-    nav {
+    h3 {
         @apply
-            flex
-            flex-row
-            items-center
-            justify-between
-            w-full
-            h-[60px]
-            px-[5%]
-            fixed
-            z-50
-            bg-white/50
-            shadow-md
+            text-xl
+            font-serif
+            text-accent
     }
+
+    h4 {
+        @apply
+            text-lg
+            font-medium
+            text-accent
+    }
+
 }
 
 @layer components {
 
-    .btn {
-        @apply
-            bg-accent
-            text-white
-            px-4
-            py-2
-            mt-8
-            rounded-sm
-            font-semibold
-            transition
-            duration-300
-            ease-in-out
-    }
-
-    .btn-secondary {
-        @apply
-            bg-light/50
-            text-accent
-            font-bold
-    }
-
     /* Navbar */
-
-    .logo {
-        @apply
-            text-3xl
-            font-serif
-            text-accent
-            font-extralight
-    }
-
-    .nav-links {
-        @apply
-            flex
-            flex-row
-            text-lg
-            gap-8
-            divide-x-2
-            divide-secondary/50
-    }
 
     .nav-link {
         @apply
@@ -102,229 +63,11 @@
             font-bold
     }
 
+    /* Icon */
     .icon {
-        @apply w-4 h-4;
-    }
-
-    .shopping-cart {
         @apply
-            border-[1px]
-            border-gray-700
-            text-gray-700
-            rounded-full
-            p-2
-    }
-
-    /* Header */
-    .header {
-        @apply
-            min-h-screen
-            grid
-            grid-cols-4
-            justify-center
-            
-    }
-
-    .header-text {
-        @apply
-            col-span-3
-            flex
-            flex-col
-            justify-center
-            items-start
-            pl-[20%]
-            pt-[10%]
-    }
-
-    .header-text h1 {
-        @apply
-            text-6xl
-            font-serif
-            text-accent
-    }
-
-    .header-text p {
-        @apply
-            text-gray-500
-            text-sm
-            mt-8
-            w-[65%]
-    }   
-
-    .header-image {
-        @apply
-            bg-secondary/50
-            relative
-    }
-
-    .header-image img {
-        @apply
-            absolute
-            scale-125
-            bottom-[8%]
-            right-[65%]
-    }
-
-    /* Categories */
-    .categories {
-        @apply
-            flex
-            flex-col
-            items-center
-            gap-16
-            mt-32
-    }
-
-    .category {
-        @apply
-            grid
-            grid-cols-2
-            gap-4
-            w-[50%]
-            
-    }
-
-    .category img {
-        @apply
-            w-[85%]
-            object-contain
-    }
-
-    .outdoor-plants,
-    .indoor-plants,
-    .office-plants {
-        @apply
-            flex
-            flex-row
-            justify-between
-            items-center
-            gap-2
-            px-8
-            pt-4
-            font-serif
-            text-lg
-            text-accent
-    }
-    
-    /* Gallery */
-    .gallery {
-        @apply
-            flex
-            flex-col
-            items-center
-            justify-center
-            gap-8
-            mt-32
-    }
-
-    .products {
-        @apply
-            flex
-            flex-wrap
-            justify-center
-            items-center
-            gap-8
-            mt-8
-            w-[80%]
-    }
-
-    .product {
-        @apply
-            flex
-            flex-col
-            items-center
-            justify-center
-            gap-4
-            w-[15%]
-            p-4
-            bg-light/20
-            shadow-lg
-    }
-
-    .product div {
-        @apply
-            flex
-            flex-col
-            items-center
-    }
-
-    .product h6 {
-        @apply
-            text-gray-500
-            text-sm
-            font-extrabold
-            mt-4
-    }
-
-    .product p {
-        @apply
-            text-accent
-            font-light
-            tracking-widest
-            mt-1
-    }
-
-    /* Footer */
-
-    .footer-body {
-        @apply
-            bg-light/50
-            px-[5%]
-            py-8
-            grid
-            grid-cols-2
-            gap-8
-            text-sm
-            text-gray-500
-            pb-[100px]
-    }
-
-    .footer-left {
-        @apply
-            flex
-            flex-col
-            gap-4
-            w-[70%]
-    }
-
-    .footer-right {
-        @apply
-            flex
-            flex-row
-            justify-between
-            gap-8
-            w-[85%]
-    }
-
-    .footer-services,
-    .footer-categories,
-    .footer-contact {
-        @apply
-            flex
-            flex-col
-            gap-2
-    }
-
-    footer ul {
-        @apply
-            flex
-            flex-col
-    }
-
-    footer h3 {
-        @apply
-            text-base
-            font-bold
-            text-accent
-    }
-
-    .footer-rights {
-        @apply
-            text-center
-            text-sm
-            tracking-widest
-            text-gray-500
-            py-4
+            w-6
+            h-6
     }
 
 }
